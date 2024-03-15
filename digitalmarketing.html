@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital Marketing Course</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+    // Add smooth scrolling to internal links
+const links = document.querySelectorAll('a[href^="#"]');
+for (const link of links) {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute('href');
+    const target = document.querySelector(targetId);
+    const topOffset = target.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({
+      top: topOffset,
+      behavior: 'smooth'
+    });
+  });
+}
+
+</script>
+
+    <style>
+        /* Add styles to the header */
+header {
+  background-color: #224bcf;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Add styles to the main content */
+main {
+  margin: 50px;
+}
+
+main section {
+  margin-bottom: 50px;
+}
+
+main h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+main ul {
+  font-size: 18px;
+  line-height: 1.5;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Add styles to the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Digital Marketing Course</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Homes</a></li>
+          <li><a href="#course-content">Course Content</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#about-us">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="course-content">
+        <h2>Course Content</h2>
+        <p>Here you can include a brief overview of the course content and what students can expect to learn.</p>
+        <ul>
+          <li>Introduction to Digital Marketing</li>
+          <li>Search Engine Optimization (SEO)</li>
+          <li>Social Media Marketing</li>
+          <li>Pay Per Click (PPC) Advertising</li>
+          <li>Email Marketing</li>
+          <li>Content Marketing</li>
+        </ul>
+      </section>
+      <section id="videos">
+        <h2>Videos</h2>
+        <p>Include a collection of videos that are relevant to the course material. You can either embed the videos directly into the webpage or link to them on an external video hosting site.</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+        </div>
+      </section>
+      <section id="images">
+        <h2>Images</h2>
+        <p>Include a collection of images that are relevant to the course material. You can either embed the images directly into the webpage or link to them on an external image hosting site.</p>
+        <img src="images/digitalmarketing.jpg" alt="Description of image">
+      </section>
+      <section id="about-us">
+        <h2>About Us</h2>
+        <p>Include information about the course instructors, their qualifications, and their experience in the digital marketing field.</p>
+        <ul>
+          <li>Name of Instructor 1 - Qualifications and Experience</li>
+          <li>Name of Instructor 2 - Qualifications and Experience</li>
+          <li>Name of Instructor 3 - Qualifications and Experience</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023</p>
+    </footer>
+  </body>
+</html>

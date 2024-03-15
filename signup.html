@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      body {
+        background-image: linear-gradient(45deg, #71b7e6, #9b59b6);
+  background-color: #344a72;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+
+
+    </style>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-graduation-cap"></i> VariableLearning </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html" target="_blank">home</a></li>
+            <li><a href="about.html" target="_blank">about</a></li>
+            <li><a href="#">courses +</a>
+                <ul>
+                    <li><a href="course-1.html" target="_blank">course 01</a></li>
+                    <li><a href="course-2.html" target="_blank">course 02</a></li>
+                    <li><a href="course-3.html" target="_blank">course 03</a></li>
+                </ul>
+            </li>
+            <li><a href="#">pages +</a>
+                <ul>
+                    <li><a href="teachers.html" target="_blank">teachers</a></li>
+                    <li><a href="blog.html" target="_blank">blogs</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html" target="_blank">contact</a></li>
+            
+            <li><a href="login.html" target="_blank">login</a> </li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+<br>
+<br>
+<br>
+
+<div class="signup-box">
+  <h1>Sign Up</h1>
+  <h4>It's free and only takes a minute</h4>
+  <form method="post" action="signup.php">
+    <label>First Name</label>
+    <input type="text" placeholder="" />
+    <label>Last Name</label>
+    <input type="text" placeholder="" />
+    <label>Email</label>
+    <input type="email" placeholder="" />
+    <label>Phone</label>
+    <input type="phone" placeholder="" />
+    <label>Password</label>
+    <input type="password" placeholder="" />
+    <label>Confirm Password</label>
+    <input type="password" placeholder="" />
+    <input type="button" value="Submit" />
+  <closeform></closeform></form>
+  <p>
+    <br>
+    By clicking the Sign Up button,you agree to our <br />
+    <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+  </p>
+</div>
+<p class="para-2">
+  Already have an account? <a href="login.html">Login here</a>
+</p>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
